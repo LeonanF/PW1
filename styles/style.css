@@ -1,0 +1,258 @@
+header{
+    background-color: #5C9EAD;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+footer{
+    background-color: #E5E059;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+footer .title h1{
+    font-style: normal;
+}
+
+form{
+    margin: auto 20px;
+}
+
+.busca-img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.title{
+    margin: 2.5vh;
+}
+
+.title h1{
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-menu{
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    margin: 2.5vh;
+    background-color: #dceab2ff;
+    border-radius: 15px;
+    transition: transform 0.3s linear;
+}
+
+.btn-menu:hover{
+    transform: scale(1.1);
+    background-color: #c7d66dff;
+}
+
+.btn-menu:active{
+    transform: scale(0.9);
+    background-color: #c7d66dff;
+}
+
+.main{
+    height: 90vh;
+}
+
+.main img{
+    width: 100vw;
+    height: 90vh;
+    filter: brightness(0.6);
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+.slider img {
+    filter: bright  ness(50%);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider img.active{
+    opacity: 1;
+}
+
+.slider-nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5vh;
+}
+
+.slider-button{
+    margin: 10px 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-button.active {
+    width: 40px;
+    background-color: #c7d66dff;
+    transition: 1s ease;
+  }
+
+  .home-text{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 10vh;
+    top: 35vh;
+    width: 45%;
+    color: white;
+}
+
+.home-text h1{
+    width: max-content;
+    font-size: 5em;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px black;
+}
+
+.home-text p{
+    font-size: 3rem;
+    line-height: 130%;
+}
+
+.home-text span{
+    color: rgb(62, 209, 143);
+}
+
+.home-text a{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 50px;
+    background-color: #c7d66dff;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    transition: transform 0.3s linear;
+}
+
+.home-text a:hover{
+    transform: scale(1.1);
+}
+
+.home-text a:active{
+    transform: scale(0.9);
+}
+
+.presentation{
+    height: 90vh;
+    background-color: wheat;
+}
+
+.img-container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-container img{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 15px;
+    margin-bottom: 2vh;
+}
+
+.img-campus, .img-aluno{
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px white;
+}
+
+.btn-container{
+    margin-top: 2vh;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    transition: background 0.3s linear;
+}
+
+.btn-container:hover{
+    background-color: #c7d66dff;
+}
+.btn-container:active{
+    background-color: #E5625E;
+}
+
+.aboutus{
+    height: 60vh;
+    background-color: wheat;
+}
+
+.aboutus-img{
+    background: url(../assets/ensino-tecnico-2.webp) no-repeat;
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(0.7);
+    background-position: 20%;
+    position: absolute;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top: 20%;
+    height: 35vh;
+    width: 50vw;
+    background-color: #F6F4F1;
+    border: 2px #5B5247 solid;
+    padding: 30px;
+}
+
+.card-title{
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+
+
+.card-title p{
+    font-size: 1.4em;
+    max-width: 60%;
+    margin: 0 auto;
+    line-height: 1.4em;
+}
+
+.name{
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.author{
+text-transform: uppercase;
+font-size: 0.4em;
+right: 2vh;
+position: absolute;
+}
